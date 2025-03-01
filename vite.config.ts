@@ -7,9 +7,9 @@ export default defineConfig({
     host: '0.0.0.0',
     port: Number(process.env.PORT) || 10000,
     strictPort: true,
-    allowedHosts: ['adri-costuras-1.onrender.com'],
+    allowedHosts: ['https://adri-costuras-2.onrender.com'],
   },
   build: {
-    outDir: 'dist',
+    outDir: 'dist', // Garante que a build vá para a pasta correta
   },
 });
